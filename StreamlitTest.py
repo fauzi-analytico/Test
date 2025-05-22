@@ -5,7 +5,7 @@ import numpy as np
 # Streamlit app to generate and display a large DataFrame with its average
 def main():
     st.title("Streamlit Test")
-    st.write("Click 'Start' to generate and display the full 300,000×3 DataFrame with its average shown above.")
+    st.write("Click 'Start' to generate and display the full 300,000×3 DataFrame with its average shown.")
 
     if st.button("Start"):
         # Generate DataFrame
